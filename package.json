@@ -1,7 +1,20 @@
 {
   "name": "skwp",
+  "version": "1.0.0",
   "private": true,
+  "description": "A modern, production-ready template for building full-stack React applications using React Router.",
+  "homepage": "https://github.com/AleksandraKopacz/skwp-quiz#readme",
+  "bugs": {
+    "url": "https://github.com/AleksandraKopacz/skwp-quiz/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleksandraKopacz/skwp-quiz.git"
+  },
+  "license": "ISC",
+  "author": "",
   "type": "module",
+  "main": "index.js",
   "scripts": {
     "build": "react-router build",
     "dev": "react-router dev",
