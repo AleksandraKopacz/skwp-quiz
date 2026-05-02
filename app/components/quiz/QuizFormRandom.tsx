@@ -6,7 +6,7 @@ import { Results } from "./Results";
 import { chapter1 } from "~/lib/chapter1";
 import { chapter2 } from "~/lib/chapter2";
 
-const NUMBER_OF_QUESTIONS: number = 17;
+const NUMBER_OF_QUESTIONS: number = 15;
 const renderQuestions = (question: any[]) => {
   const questionNumbers: number[] = [];
   let randomArray = [];
