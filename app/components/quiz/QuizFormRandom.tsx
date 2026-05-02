@@ -1,7 +1,12 @@
+// HOOKS
 import { useEffect, useState } from "react";
+// COMPONENTS
 import { Results } from "./Results";
+// DATA
+import { chapter1 } from "~/lib/chapter1";
+import { chapter2 } from "~/lib/chapter2";
 
-const NUMBER_OF_QUESTIONS: number = 2;
+const NUMBER_OF_QUESTIONS: number = 17;
 const renderQuestions = (question: any[]) => {
   const questionNumbers: number[] = [];
   let randomArray = [];
@@ -47,10 +52,10 @@ export function QuizForm() {
       <ul>
         {choosenQuestions.map((question, index) => (
           <>
-            <li>{question.queTitle}</li>
+            <li key={index}>{index+1}.{question.queTitle}</li>
             <ul>
-              {question.queChoices.map((choice: string) => (
-                <li>
+              {question.queChoices.map((choice: string, index: number) => (
+                <li key={index}>
                   <label>
                     <input
                       name={question.queTitle}
@@ -78,23 +83,4 @@ export function QuizForm() {
   );
 }
 
-const questions = [
-  {
-    queID: 0,
-    queTitle: "Lorem Ipsum",
-    queChoices: ["1", "2", "3"],
-    correctAnswer: "2",
-  },
-  {
-    queID: 1,
-    queTitle: "Drugie pytanie",
-    queChoices: ["raz", "dwa", "trzy"],
-    correctAnswer: "raz",
-  },
-  {
-    queID: 2,
-    queTitle: "Trzecie pytanie",
-    queChoices: ["uno", "dos", "tres"],
-    correctAnswer: "tres",
-  },
-];
+const questions: Question = chapter1.concat(chapter2);
