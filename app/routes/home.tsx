@@ -1,5 +1,4 @@
 import type { Route } from "./+types/home";
-import { Welcome } from "../welcome/welcome";
 import { QuizForm } from "~/components/quiz/QuizFormRandom";
 
 export function meta({}: Route.MetaArgs) {

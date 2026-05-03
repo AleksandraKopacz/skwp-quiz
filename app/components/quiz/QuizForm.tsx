@@ -5,21 +5,66 @@ import { Results } from "./Results";
 // DATA
 import { chapter1, chapter2, chapter3 } from "~/lib/textbook-questions";
 
-const NUMBER_OF_QUESTIONS: number = 20;
-const renderQuestions = (question: Question) => {
-  const questionNumbers: number[] = [];
-  let randomArray = [];
-  while (questionNumbers.length < NUMBER_OF_QUESTIONS) {
-    const r = Math.floor(Math.random() * questions.length);
-    if (questionNumbers.indexOf(r) === -1) questionNumbers.push(r);
-  }
-  for (let i = 0; i < NUMBER_OF_QUESTIONS; i++) {
-    randomArray[i] = question[questionNumbers[i]];
-  }
-  return randomArray;
-};
+export function QuizForm(chapterId: { chapterId: string }) {
+  // GET QUESTIONS
+  const getQuestions = () => {
+    switch (chapterId.chapterId) {
+      case "1":
+        return chapter1;
+      case "2":
+        return chapter2;
+      case "3":
+        return chapter3;
+      /*case "4":
+        return chapter4;
+      case "5":
+        return chapter5;
+      case "6":
+        return chapter6;
+      case "7":
+        return chapter7
+      case "8":
+        return chapter8
+      case "9":
+        return chapter9
+      case "10":
+        return chapter10
+      case "11":
+        return chapter11
+      case "test"
+        return test*/
+      default:
+        return chapter1.concat(
+          chapter2,
+          chapter3 /*, chapter4, chapter5, chapter6, chapter7, chapter8, chapter9, chapter10, chapter11, test*/,
+        );
+    }
+  };
 
-export function QuizForm() {
+  const questions: Question = getQuestions();
+
+  // GET LENGTH
+  const getLength = () => {
+    if (questions.length > 20) return 20;
+    else return questions.length;
+  };
+
+  const NUMBER_OF_QUESTIONS: number = getLength();
+
+  // RANDOMIZE QUESTIONS
+  const renderQuestions = (question: Question) => {
+    const questionNumbers: number[] = [];
+    let randomArray = [];
+    while (questionNumbers.length < NUMBER_OF_QUESTIONS) {
+      const r = Math.floor(Math.random() * questions.length);
+      if (questionNumbers.indexOf(r) === -1) questionNumbers.push(r);
+    }
+    for (let i = 0; i < NUMBER_OF_QUESTIONS; i++) {
+      randomArray[i] = question[questionNumbers[i]];
+    }
+    return randomArray;
+  };
+
   const [finished, setFinished] = useState<boolean>(false);
   const [choosenQuestions, setChoosenQuestions] = useState(() =>
     renderQuestions(questions),
@@ -86,5 +131,3 @@ export function QuizForm() {
     </div>
   );
 }
-
-const questions: Question = chapter1.concat(chapter2, chapter3);
