@@ -3,8 +3,7 @@ import { useEffect, useState } from "react";
 // COMPONENTS
 import { Results } from "./Results";
 // DATA
-import { chapter1 } from "~/lib/chapter1";
-import { chapter2 } from "~/lib/chapter2";
+import { chapter1, chapter2, chapter3 } from "~/lib/textbook-questions";
 
 const NUMBER_OF_QUESTIONS: number = 15;
 const renderQuestions = (question: any[]) => {
@@ -52,7 +51,9 @@ export function QuizForm() {
       <ul>
         {choosenQuestions.map((question, index) => (
           <>
-            <li key={index}>{index+1}.{question.queTitle}</li>
+            <li key={index}>
+              {index + 1}. {question.queTitle}
+            </li>
             <ul>
               {question.queChoices.map((choice: string, index: number) => (
                 <li key={index}>
@@ -71,16 +72,19 @@ export function QuizForm() {
           </>
         ))}
       </ul>
-      <button onClick={() => submitAnswers()}>Zakończ</button>
-      <button onClick={() => restartQuiz()}>Restart</button>
-      {finished && (
-        <Results
-          correctAnswers={correctCount}
-          numberOfQuestions={NUMBER_OF_QUESTIONS}
-        />
+      {finished ? (
+        <>
+          <button onClick={() => restartQuiz()}>Restart</button>
+          <Results
+            correctAnswers={correctCount}
+            numberOfQuestions={NUMBER_OF_QUESTIONS}
+          />
+        </>
+      ) : (
+        <button onClick={() => submitAnswers()}>Zakończ</button>
       )}
     </div>
   );
 }
 
-const questions: Question = chapter1.concat(chapter2);
+const questions: Question = chapter1.concat(chapter2, chapter3);
