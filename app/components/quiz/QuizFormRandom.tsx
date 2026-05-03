@@ -5,7 +5,7 @@ import { Results } from "./Results";
 // DATA
 import { chapter1, chapter2, chapter3 } from "~/lib/textbook-questions";
 
-const NUMBER_OF_QUESTIONS: number = 15;
+const NUMBER_OF_QUESTIONS: number = 20;
 const renderQuestions = (question: any[]) => {
   const questionNumbers: number[] = [];
   let randomArray = [];
