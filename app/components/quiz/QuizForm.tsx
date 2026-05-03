@@ -1,9 +1,10 @@
 // HOOKS
-import { useEffect, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 // COMPONENTS
 import { Results } from "./Results";
 // DATA
 import { chapter1, chapter2, chapter3 } from "~/lib/textbook-questions";
+import { Radio } from "./Radio";
 
 export function QuizForm(chapterId: { chapterId: string }) {
   // GET QUESTIONS
@@ -100,9 +101,9 @@ export function QuizForm(chapterId: { chapterId: string }) {
               {index + 1}. {question.queTitle}
             </li>
             <ul>
-              {question.queChoices.map((choice: string, index: number) => (
-                <li key={index}>
-                  <label>
+              {question.queChoices.map((choice: string, index2: number) => (
+                <li key={index2}>
+                  {/*<label>
                     <input
                       name={question.queTitle}
                       type="radio"
@@ -110,7 +111,16 @@ export function QuizForm(chapterId: { chapterId: string }) {
                       onChange={(e) => saveAnswer(e.target.value, index)}
                     />
                     {choice}
-                  </label>
+                  </label> */}
+                  <Radio
+                    key={question.queTitle}
+                    question={question.queTitle}
+                    choice={choice}
+                    saveAnswer={saveAnswer}
+                    index={index}
+                    finished={finished}
+                    correctAnswer={choosenQuestions[index].correctAnswer}
+                  />
                 </li>
               ))}
             </ul>
