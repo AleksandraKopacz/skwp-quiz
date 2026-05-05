@@ -2,9 +2,10 @@
 import { Suspense, useEffect, useState } from "react";
 // COMPONENTS
 import { Results } from "./Results";
-// DATA
-import { chapter1, chapter2, chapter3 } from "~/lib/textbook-questions";
 import { Radio } from "./Radio";
+// DATA
+import { chapter1, chapter2, chapter3, chapter4 } from "~/lib/textbook-questions";
+import { classroom } from "~/lib/class-questions";
 
 export function QuizForm(chapterId: { chapterId: string }) {
   // GET QUESTIONS
@@ -16,9 +17,9 @@ export function QuizForm(chapterId: { chapterId: string }) {
         return chapter2;
       case "3":
         return chapter3;
-      /*case "4":
+      case "4":
         return chapter4;
-      case "5":
+      /*case "5":
         return chapter5;
       case "6":
         return chapter6;
@@ -31,13 +32,13 @@ export function QuizForm(chapterId: { chapterId: string }) {
       case "10":
         return chapter10
       case "11":
-        return chapter11
-      case "test"
-        return test*/
+        return chapter11*/
+      case "test":
+        return classroom;
       default:
         return chapter1.concat(
           chapter2,
-          chapter3 /*, chapter4, chapter5, chapter6, chapter7, chapter8, chapter9, chapter10, chapter11, test*/,
+          chapter3, chapter4, /*chapter5, chapter6, chapter7, chapter8, chapter9, chapter10, chapter11,*/ classroom
         );
     }
   };

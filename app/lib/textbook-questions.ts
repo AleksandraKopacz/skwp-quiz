@@ -172,7 +172,8 @@ export const chapter2: Question = [
 export const chapter3: Question = [
   {
     queID: 31,
-    queTitle: "Podwójny opis każdego zdarzenia gospodarczego w rachunkowości jest realizacją:",
+    queTitle:
+      "Podwójny opis każdego zdarzenia gospodarczego w rachunkowości jest realizacją:",
     queChoices: [
       "metody bilansowej",
       "koncepcji wiernego i rzetelnego obrazu",
@@ -183,11 +184,7 @@ export const chapter3: Question = [
   {
     queID: 32,
     queTitle: "Zasoby majątkowe jednostki gospodarczej określane są jako:",
-    queChoices: [
-      "pasywa",
-      "zdarzenia gospodarcze",
-      "aktywa",
-    ],
+    queChoices: ["pasywa", "zdarzenia gospodarcze", "aktywa"],
     correctAnswer: "aktywa",
   },
   {
@@ -202,7 +199,8 @@ export const chapter3: Question = [
   },
   {
     queID: 34,
-    queTitle: "Nabyte przez jednostkę licencje nadające się do gospodarczego wykorzystania, o przewidywanym okresie użyteczności dłuższym niż rok i przeznaczone do używania na potrzeby jednostki stanowią:",
+    queTitle:
+      "Nabyte przez jednostkę licencje nadające się do gospodarczego wykorzystania, o przewidywanym okresie użyteczności dłuższym niż rok i przeznaczone do używania na potrzeby jednostki stanowią:",
     queChoices: [
       "rzeczowe aktywa trwałe",
       "inwestycje długotrwałe",
@@ -212,17 +210,15 @@ export const chapter3: Question = [
   },
   {
     queID: 35,
-    queTitle: "Samochody ciężarowe w jednostce świadczącej usługi transportowe zalicza się do:",
-    queChoices: [
-      "inwestycji długoterminowych",
-      "zapasów",
-      "środków trwałych",
-    ],
+    queTitle:
+      "Samochody ciężarowe w jednostce świadczącej usługi transportowe zalicza się do:",
+    queChoices: ["inwestycji długoterminowych", "zapasów", "środków trwałych"],
     correctAnswer: "środków trwałych",
   },
   {
     queID: 36,
-    queTitle: "Nabyte obligacje Skarbu Państwa z zamiarem ich sprzedaży za 4 lata zostaną zakwalifikowane do:",
+    queTitle:
+      "Nabyte obligacje Skarbu Państwa z zamiarem ich sprzedaży za 4 lata zostaną zakwalifikowane do:",
     queChoices: [
       "należności długoterminowych",
       "zobowiązań długoterminowych",
@@ -242,7 +238,8 @@ export const chapter3: Question = [
   },
   {
     queID: 38,
-    queTitle: "Zgodnie z ustawą o rachunkowości aktywa netto odpowiadają wartościowo:",
+    queTitle:
+      "Zgodnie z ustawą o rachunkowości aktywa netto odpowiadają wartościowo:",
     queChoices: [
       "kapitałowi (funduszowi) własnemu",
       "zyskowi netto",
@@ -278,21 +275,19 @@ export const chapter3: Question = [
       "wartość aktywów netto na początek okresu sprawozdawczego przewyższa wartość aktywów netto na koniec tegp okresu, po wyłączeniu wszelkich wypłat na rzecz właścicieli i wkładów wniesionych przez właścicieli w danym okresie",
       "wartość zobowiązań na koniec okresu sprawozdzawczego jest niższa od wartości zobowiązań na początek tego okresu, po wyłączeniu wszelkich wypłat na rzecz właścicieli i wkładów wniesionych przez właścicieli w danym okresie",
     ],
-    correctAnswer: "wartość aktywów netto na koniec okresu sprawozdawczego przewyższa wartość aktywów netto na początek tego okresu, po wyłączeniu wszelkich wypłat na rzecz właścicieli i wkładów wniesionych przez właścicieli w danym okresie",
+    correctAnswer:
+      "wartość aktywów netto na koniec okresu sprawozdawczego przewyższa wartość aktywów netto na początek tego okresu, po wyłączeniu wszelkich wypłat na rzecz właścicieli i wkładów wniesionych przez właścicieli w danym okresie",
   },
   {
     queID: 312,
     queTitle: "Do zobowiązań zalicza się m.in.:",
-    queChoices: [
-      "otrzymane pożyczki",
-      "udzielone pożyczki",
-      "zysk netto",
-    ],
+    queChoices: ["otrzymane pożyczki", "udzielone pożyczki", "zysk netto"],
     correctAnswer: "otrzymane pożyczki",
   },
   {
     queID: 313,
-    queTitle: "Udzielone pożyczki o terminie spłaty za 2 lata wykazuje się w bilansie jako:",
+    queTitle:
+      "Udzielone pożyczki o terminie spłaty za 2 lata wykazuje się w bilansie jako:",
     queChoices: [
       "inwestycje długoterminowe",
       "zobowiązania długoterminowe",
@@ -302,7 +297,7 @@ export const chapter3: Question = [
   },
   {
     queID: 314,
-    queTitle: "Równowana bilansowa oznacza, że:",
+    queTitle: "Równowaga bilansowa oznacza, że:",
     queChoices: [
       "suma aktywów jest równa sumie kapitału własnego",
       "suma aktywów jest równa sumie pasywów",
@@ -312,7 +307,8 @@ export const chapter3: Question = [
   },
   {
     queID: 315,
-    queTitle: "Źródła finansowania majątu (pasywa) są uporządkowane w bilansie według:",
+    queTitle:
+      "Źródła finansowania majątu (pasywa) są uporządkowane w bilansie według:",
     queChoices: [
       "wzrastającej płynności",
       "wzrastającej wymagalności",
@@ -320,4 +316,108 @@ export const chapter3: Question = [
     ],
     correctAnswer: "wzrastającej wymagalności",
   },
-]
+];
+
+export const chapter4: Question = [
+  {
+    queID: 41,
+    queTitle:
+      "Operacją gospodarczą będącą przedmiotem opisu w rachunkowości jest:",
+    queChoices: [
+      "zawarcie umowy o pracę",
+      "złożenie zamówienia u dostawcy na zakup towarów",
+      "spłata uprzednio zaciągniętej pożyczki",
+    ],
+    correctAnswer: "spłata uprzednio zaciągniętej pożyczki",
+  },
+  {
+    queID: 42,
+    queTitle: "Każda operacja gospodarcza:",
+    queChoices: [
+      "ma określoną datę wystąpienia",
+      "ma określony termin płatności",
+      "jest identyfikowana w jednostkach naturalnych",
+    ],
+    correctAnswer: "ma określoną datę wystąpienia",
+  },
+  {
+    queID: 43,
+    queTitle:
+      "Sprawdzenie i zakwalifikowanie dowodu do ujęcia w księgach rachunkowych przez wskazanie miesiąca i sposobu ujęcia dowodu w księgach rachunkowych jest określane jako:",
+    queChoices: ["bilansowanie", "identyfikowanie", "dekretacja"],
+    correctAnswer: "dekretacja",
+  },
+  {
+    queID: 44,
+    queTitle: "Operacją wynikową jest:",
+    queChoices: [
+      "pobranie gotówki z banku do kasy",
+      "zakup towarów z odroczonym terminem płatności",
+      "sprzedaż towarów z odroczonym terminem płatności",
+    ],
+    correctAnswer: "sprzedaż towarów z odroczonym terminem płatności",
+  },
+  {
+    queID: 45,
+    queTitle:
+      "Operacją gospodarczą wywołującą zmiany wyłącznie w pasywach bilansu jest:",
+    queChoices: [
+      "uregulowanie z rachunku bieżącego zobowiązania wobec dostawcy",
+      "przeznaczenie zysku z lat ubiegłych na kapitał zapasowy",
+      "zakup środka trwałego z odroczonym terminem płatności",
+    ],
+    correctAnswer: "przeznaczenie zysku z lat ubiegłych na kapitał zapasowy",
+  },
+  {
+    queID: 46,
+    queTitle:
+      "Operacją gospodarczą powodującą zwiększenie wartości aktywów i równoważące się zwiększenie wartości pasywów jest:",
+    queChoices: [
+      "spłata rachunku bieżacego uprzednio zaciągniętego kredytu bankowego",
+      "wpływ środków na rachunek bieżący z tytułu zaciągniętego kredytu bankowego",
+      "wpłata na rachunek bieżący należności od odbiorcy",
+    ],
+    correctAnswer:
+      "wpływ środków na rachunek bieżący z tytułu zaciągniętego kredytu bankowego",
+  },
+  {
+    queID: 47,
+    queTitle:
+      "Sprzedaż towarów (z odroczonym terminem płatności) za kwotę 1.000, które uprzednio nabyto za kwotę 800 spowoduje:",
+    queChoices: [
+      "zwiększenie kapitału własnego o 200",
+      "zmniejszenie kapitału własnego o 200",
+      "zwiększenie należności o 200",
+    ],
+    correctAnswer: "zwiększenie kapitału własnego o 200",
+  },
+  {
+    queID: 48,
+    queTitle:
+      "Jeżeli sprzedano towary (z odroczonym terminem płatności) za kwotę 2.000, które uprzednio nabyto za kwotę 1.500, to koszty z tego tytułu wynoszą:",
+    queChoices: ["2.000", "1.500", "500"],
+    correctAnswer: "1.500",
+  },
+  {
+    queID: 49,
+    queTitle:
+      "Operacją gospodarczą wywołującą zmiany wyłącznie w aktywach bilansu jest:",
+    queChoices: [
+      "zakup za gotówkę i przyjęcie do magazynu materiałów",
+      "zakup z odroczonym terminem płatności i przyjęcie do używania licencji na oprogramowanie finansowo-księgowe",
+      "uregulowanie z rachunku bieżącego zobowiązania wobec dostawcy towarów",
+    ],
+    correctAnswer: "zakup za gotówkę i przyjęcie do magazynu materiałów",
+  },
+  {
+    queID: 410,
+    queTitle: "Operacją niepowodującą zmiany w stanie kapitału własnego jest:",
+    queChoices: [
+      "sprzedaż (wykonanie) usługi z odroczonym terminem płatności",
+      "sprzedaż (wykonanie) usługi za gotówkę",
+      "otrzymanie wpłaty na rachunek bieżący środków pieniężnych z tytułu usługi wykonanej w poprzednim okresie sprawozdawczym",
+    ],
+    correctAnswer:
+      "otrzymanie wpłaty na rachunek bieżący środków pieniężnych z tytułu usługi wykonanej w poprzednim okresie sprawozdawczym",
+  },
+];
