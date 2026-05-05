@@ -4,7 +4,13 @@ import { Suspense, useEffect, useState } from "react";
 import { Results } from "./Results";
 import { Radio } from "./Radio";
 // DATA
-import { chapter1, chapter2, chapter3, chapter4 } from "~/lib/textbook-questions";
+import {
+  chapter1,
+  chapter2,
+  chapter3,
+  chapter4,
+  chapter5 /*, chapter6, chapter7, chapter8, chapter9, chapter10, chapter11*/,
+} from "~/lib/textbook-questions";
 import { classroom } from "~/lib/class-questions";
 
 export function QuizForm(chapterId: { chapterId: string }) {
@@ -19,26 +25,29 @@ export function QuizForm(chapterId: { chapterId: string }) {
         return chapter3;
       case "4":
         return chapter4;
-      /*case "5":
+      case "5":
         return chapter5;
-      case "6":
+      /*case "6":
         return chapter6;
       case "7":
-        return chapter7
+        return chapter7;
       case "8":
-        return chapter8
+        return chapter8;
       case "9":
-        return chapter9
+        return chapter9;
       case "10":
-        return chapter10
+        return chapter10;
       case "11":
-        return chapter11*/
+        return chapter11;*/
       case "test":
         return classroom;
       default:
         return chapter1.concat(
           chapter2,
-          chapter3, chapter4, /*chapter5, chapter6, chapter7, chapter8, chapter9, chapter10, chapter11,*/ classroom
+          chapter3,
+          chapter4,
+          chapter5,
+          /*chapter6, chapter7, chapter8, chapter9, chapter10, chapter11,*/ classroom,
         );
     }
   };

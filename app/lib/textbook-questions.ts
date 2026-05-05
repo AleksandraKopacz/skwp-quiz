@@ -421,3 +421,168 @@ export const chapter4: Question = [
       "otrzymanie wpłaty na rachunek bieżący środków pieniężnych z tytułu usługi wykonanej w poprzednim okresie sprawozdawczym",
   },
 ];
+
+export const chapter5: Question = [
+  {
+    queID: 51,
+    queTitle: "Konto księgowe powinno zawierać:",
+    queChoices: [
+      "nazwę jednostki gospodarczej będącej dysponentem konta",
+      "nazwę (tytuł) i ewentualnie indywidualny numer (symbol) konta",
+      "identyfikator osoby odpowiedzialnej za prowadzenie danego konta",
+    ],
+    correctAnswer:
+      "nazwę (tytuł) i ewentualnie indywidualny numer (symbol) konta",
+  },
+  {
+    queID: 52,
+    queTitle: "Wykaz kont księgi głównej jest elementem:",
+    queChoices: [
+      "sprawozdania finansowego",
+      "dokumentacji opisującej przyjęte zasady (politykę) rachunkowości",
+      "bilansu",
+    ],
+    correctAnswer:
+      "dokumentacji opisującej przyjęte zasady (politykę) rachunkowości",
+  },
+  {
+    queID: 53,
+    queTitle:
+      "Podwójny i równoważący się zapis każdej operacji gospodarczej jest zawsze prowadzony na:",
+    queChoices: [
+      "kontach ksiąg pomocniczych",
+      "kontach księgi głównej",
+      "kontach pozabilansowych",
+    ],
+    correctAnswer: "kontach księgi głównej",
+  },
+  {
+    queID: 54,
+    queTitle: "Do kont aktywów można zaliczyć:",
+    queChoices: [
+      "konto '800 Kapitał (fundusz) podstawowy'",
+      "konto '134 Kredyty bankowe'",
+      "konto '100 Kasa'",
+    ],
+    correctAnswer: "konto '100 Kasa'",
+  },
+  {
+    queID: 55,
+    queTitle:
+      "Saldo początkowe oznaczające należności od odbiorców z tytułu sprzedaży towarów z odroczonym terminem płatności należy ująć:",
+    queChoices: [
+      "po stronie Dt (Wn) konta '200 Rozrachunki z odbiorcami'",
+      "po stronie Ct (Ma) konta '200 Rozrachunki z odbiorcami'",
+      "po stronie Dt (Wn) konta '330 Towary'",
+    ],
+    correctAnswer: "po stronie Dt (Wn) konta '200 Rozrachunki z odbiorcami'",
+  },
+  {
+    queID: 56,
+    queTitle:
+      "Operacje zwiększające zobowiązania wobec dostawców ujmuje się na koncie '202 Rozrachunki z dostawcami' zapisem po stronie:",
+    queChoices: [
+      "Dt (Wn) tego konta",
+      "Ct (Ma) tego konta",
+      "Dt (Wn) i Ct (Ma) tego konta",
+    ],
+    correctAnswer: "Ct (Ma) tego konta",
+  },
+  {
+    queID: 57,
+    queTitle:
+      "Zestawienie obrotów i sald kont księgi głównej sporządzone zgodnie z ustawą o rachunkowości zawiera m.in.:",
+    queChoices: [
+      "salda kont księgi głównej na koniec okresu sprawozdawczego",
+      "wykaz operacji gospodarczych w porządku chronologicznym",
+      "salda kont księgi głównej na początek każdego miesiąca",
+    ],
+    correctAnswer: "salda kont księgi głównej na koniec okresu sprawozdawczego",
+  },
+  {
+    queID: 58,
+    queTitle:
+      "Uregulowanie z rachunku bieżącego zobowiązania wobec dostawcy z tytułu zakupionych towarów powinno być zaksięgowane w następujący sposób:",
+    queChoices: [
+      "Dt '130-1 Rachunek bieżący' / Ct '202 Rozrachunki z dostawcami'",
+      "Dt '330 Towary' / Ct '202 Rozrachunki z dostawcami'",
+      "Dt '202 Rozrachunki z dostawcami' / Ct '130-1 Rachunek bieżący'",
+    ],
+    correctAnswer:
+      "Dt '202 Rozrachunki z dostawcami' / Ct '130-1 Rachunek bieżący'",
+  },
+  {
+    queID: 59,
+    queTitle: "Elementami kształtującymi wynik finansowy są:",
+    queChoices: [
+      "osiągnięte przychody i poniesione koszty",
+      "wpływy i wydatki środków pieniężnych",
+      "zapłata należności i uregulowanie zobowiązań",
+    ],
+    correctAnswer: "osiągnięte przychody i poniesione koszty",
+  },
+  {
+    queID: 510,
+    queTitle: "Konta przychodów na koniec roku obrotowego:",
+    queChoices: [
+      "mogą wykazywać wyłącznie saldo Dt (Wn)",
+      "mogą wykazywać wyłącznie saldo Ct (Ma)",
+      "nie wykazują sald końcowych",
+    ],
+    correctAnswer: "nie wykazują sald końcowych",
+  },
+  {
+    queID: 511,
+    queTitle: "Saldo Dt (Wn) konta '860 Wynik finansowy' oznacza:",
+    queChoices: [
+      "osiągnięty zysk",
+      "nadwyżkę środków pieniężnych",
+      "poniesioną stratę",
+    ],
+    correctAnswer: "poniesioną stratę",
+  },
+  {
+    queID: 512,
+    queTitle:
+      "Konto '870 Podatek dochodowy i inne obowiązkowe obciążenia wyniku finansowego' jest:",
+    queChoices: [
+      "kontem bilansowy",
+      "kontem wynikowym",
+      "kontem pozabilansowym",
+    ],
+    correctAnswer: "kontem wynikowym",
+  },
+  {
+    queID: 513,
+    queTitle: "Do kosztów według rodzajów zalicza się:",
+    queChoices: [
+      "wartość sprzedanych towarów",
+      "koszt wytworzenia sprzedanych wyrobów gotowych",
+      "zużycie materiałów i energii",
+    ],
+    correctAnswer: "zużycie materiałów i energii",
+  },
+  {
+    queID: 514,
+    queTitle:
+      "Korygowanie błędnych zapisów w księgach rachunkowych prowadzonych przy użyciu komputera jest możliwe:",
+    queChoices: [
+      "poprzez wprowadzenie dowodu zawierającego korekty błędnych zapisów",
+      "poprzez trwałe usunięcie z ksiąg rachunkowych błędnego zapisu",
+      "wyłącznie w formie zapisu dodatniego",
+    ],
+    correctAnswer:
+      "poprzez wprowadzenie dowodu zawierającego korekty błędnych zapisów",
+  },
+  {
+    queID: 515,
+    queTitle: "Na kontach ksiąg pomocniczych:",
+    queChoices: [
+      "obowiązuje zasada podwójnego i równoważącego się zapisu",
+      "należy w ciągu okresu stosować wyłącznie zapisy w jednostkach pieniężnych",
+      "można w ciągu okresu obok lub zamiast jednostek pieniężnych stosować zapisy w jednostkach naturalnych (np. sztukach, litrach, kilogramach)",
+    ],
+    correctAnswer:
+      "można w ciągu okresu obok lub zamiast jednostek pieniężnych stosować zapisy w jednostkach naturalnych (np. sztukach, litrach, kilogramach)",
+  },
+];

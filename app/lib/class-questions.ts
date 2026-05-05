@@ -1,13 +1,15 @@
 export const classroom: Question = [
   {
     queID: 1,
-    queTitle: "Podjęcie działalności gospodarczej przez osobę fizyczną wymaga zgłoszenia w:",
+    queTitle:
+      "Podjęcie działalności gospodarczej przez osobę fizyczną wymaga zgłoszenia w:",
     queChoices: [
       "Krajowym Rejestrze Sądowym",
       "Centralnej Ewidencji i Informacji o Działalności Gospodarczej",
       "Minitorze Sądowym i Gospodarczym",
     ],
-    correctAnswer: "Centralnej Ewidencji i Informacji o Działalności Gospodarczej",
+    correctAnswer:
+      "Centralnej Ewidencji i Informacji o Działalności Gospodarczej",
   },
   {
     queID: 2,
@@ -31,7 +33,8 @@ export const classroom: Question = [
   },
   {
     queID: 4,
-    queTitle: "Spółka z o.o., której przychody za ubiegły rok obrotowy nie przekroczyły równowartości w walucie polskiej 2 500 000 euro:",
+    queTitle:
+      "Spółka z o.o., której przychody za ubiegły rok obrotowy nie przekroczyły równowartości w walucie polskiej 2 500 000 euro:",
     queChoices: [
       "może prowadzić w bieżącym roku ewidencję podatkową w postaci 'Księgi przychodów i rozchodów'",
       "musi prowadzić księgi rachunkowe",
@@ -51,7 +54,8 @@ export const classroom: Question = [
   },
   {
     queID: 6,
-    queTitle: "Biorąc po uwagę funkcje - rachunkowości, można w niej, w historycznym podziale, wyróżnić:",
+    queTitle:
+      "Biorąc po uwagę funkcje - rachunkowości, można w niej, w historycznym podziale, wyróżnić:",
     queChoices: [
       "księgowość, rachunek kosztów, sprawozdawczość finansową",
       "rachunkowość finansową i zarządczą",
@@ -77,11 +81,13 @@ export const classroom: Question = [
       "obserwacji zdarzeń i procesów z punktu widzenia wyodrębnionego pod względem organizacyjno-prawnym przedsiębiorstwa",
       "grupowaniu zdarzeń gospodarczych według cech wspólnych obserwowanych elementów",
     ],
-    correctAnswer: "obserwacji zdarzeń i procesów z punktu widzenia wyodrębnionego pod względem organizacyjno-prawnym przedsiębiorstwa",
+    correctAnswer:
+      "obserwacji zdarzeń i procesów z punktu widzenia wyodrębnionego pod względem organizacyjno-prawnym przedsiębiorstwa",
   },
   {
     queID: 9,
-    queTitle: "Część rachunkowości, której głównym zadaniem jest dostarczenie informacji ekonomicznych dla otoczenia podmiotu gospodarczego, określamy mianem:",
+    queTitle:
+      "Część rachunkowości, której głównym zadaniem jest dostarczenie informacji ekonomicznych dla otoczenia podmiotu gospodarczego, określamy mianem:",
     queChoices: [
       "rachunkowości finansowej",
       "rachunkowości zarządczej",
@@ -91,7 +97,8 @@ export const classroom: Question = [
   },
   {
     queID: 10,
-    queTitle: "Część rachunkowości, której głównym zadaniem jest dostarczenie informacji na wewnętrzne potrzeby zarządzania przedsiębiorstwem (np. dla kierownictwa), określamy mianem:",
+    queTitle:
+      "Część rachunkowości, której głównym zadaniem jest dostarczenie informacji na wewnętrzne potrzeby zarządzania przedsiębiorstwem (np. dla kierownictwa), określamy mianem:",
     queChoices: [
       "rachunkowości zarządczej",
       "rachunku kosztów",
@@ -101,7 +108,8 @@ export const classroom: Question = [
   },
   {
     queID: 11,
-    queTitle: "Wybrane i stosowane przez przedsiebiorstwo rozwiązania dopuszczone ustawą o rachunkowości, zapewniające wymaganą jakość sprawozdań finansowych, określa się mianem:",
+    queTitle:
+      "Wybrane i stosowane przez przedsiebiorstwo rozwiązania dopuszczone ustawą o rachunkowości, zapewniające wymaganą jakość sprawozdań finansowych, określa się mianem:",
     queChoices: [
       "metody bilasowej",
       "polityki rachunkowości",
@@ -111,22 +119,16 @@ export const classroom: Question = [
   },
   {
     queID: 12,
-    queTitle: "W wyniku finansowym, bez względu na jego wysokość, należy uwzględnić m.in. Wszystkie poniesione pozostałe koszty operacyjne, zgodnie z zasadą:",
-    queChoices: [
-      "współmierności",
-      "ostrożnej wyceny",
-      "ciągłości",
-    ],
+    queTitle:
+      "W wyniku finansowym, bez względu na jego wysokość, należy uwzględnić m.in. Wszystkie poniesione pozostałe koszty operacyjne, zgodnie z zasadą:",
+    queChoices: ["współmierności", "ostrożnej wyceny", "ciągłości"],
     correctAnswer: "ostrożnej wyceny",
   },
   {
     queID: 13,
-    queTitle: "Porównywalność sprawozdań finansowych za poszczególne lata obrotowe jest zapewniona przez obowiązek stosowania w rachunkowości zasady:",
-    queChoices: [
-      "wyższości formy nad treścią",
-      "memoriału",
-      "ciągłości",
-    ],
+    queTitle:
+      "Porównywalność sprawozdań finansowych za poszczególne lata obrotowe jest zapewniona przez obowiązek stosowania w rachunkowości zasady:",
+    queChoices: ["wyższości formy nad treścią", "memoriału", "ciągłości"],
     correctAnswer: "ciągłości",
   },
   {
@@ -157,7 +159,8 @@ export const classroom: Question = [
       "członek zarządu lub innego organu zarządzającego, a jeżeli organ jest wieloosobowy – członkowie tego organu",
       "osoba wskazana przez członka zarządu do ustalania premii dla pracowników",
     ],
-    correctAnswer: "członek zarządu lub innego organu zarządzającego, a jeżeli organ jest wieloosobowy – członkowie tego organu",
+    correctAnswer:
+      "członek zarządu lub innego organu zarządzającego, a jeżeli organ jest wieloosobowy – członkowie tego organu",
   },
   {
     queID: 17,
@@ -167,7 +170,8 @@ export const classroom: Question = [
       "Rok kalendarzowy lub inny okres trwający 12 kolejnych pełnych miesięcy kalendarzowych, przyjmowany również do celów podatkowych",
       "rok następujący po roku przestępnym",
     ],
-    correctAnswer: "Rok kalendarzowy lub inny okres trwający 12 kolejnych pełnych miesięcy kalendarzowych, przyjmowany również do celów podatkowych",
+    correctAnswer:
+      "Rok kalendarzowy lub inny okres trwający 12 kolejnych pełnych miesięcy kalendarzowych, przyjmowany również do celów podatkowych",
   },
   {
     queID: 18,
@@ -201,7 +205,8 @@ export const classroom: Question = [
   },
   {
     queID: 21,
-    queTitle: "Zasady ustalania wyniku finasowego (zysku/straty netto) wypracowanego przez podmiot gospodarczy normują przepisy:",
+    queTitle:
+      "Zasady ustalania wyniku finasowego (zysku/straty netto) wypracowanego przez podmiot gospodarczy normują przepisy:",
     queChoices: [
       "ustawy o rachunkowości",
       "ustawy o podatku dochodowym od osób fizycznych",
@@ -211,76 +216,274 @@ export const classroom: Question = [
   },
   {
     queID: 22,
-    queTitle: "Ogół norm prawnych ujętych w ustawie o rachunkowosci określa się mianem:",
-    queChoices: [
-      "prawa bilansowego",
-      "prawa przedsiębiorców",
-      "prawa pracy",
-    ],
+    queTitle:
+      "Ogół norm prawnych ujętych w ustawie o rachunkowosci określa się mianem:",
+    queChoices: ["prawa bilansowego", "prawa przedsiębiorców", "prawa pracy"],
     correctAnswer: "prawa bilansowego",
   },
   {
     queID: 23,
-    queTitle: "Równowaga bilansowa jest konsekwencją stosownia w rachunkowości metod:",
-    queChoices: [
-      "udokumentowania",
-      "bilansowej",
-      "podmiotowej",
-    ],
+    queTitle:
+      "Równowaga bilansowa jest konsekwencją stosownia w rachunkowości metod:",
+    queChoices: ["udokumentowania", "bilansowej", "podmiotowej"],
     correctAnswer: "bilansowej",
   },
-  /*{
+  {
     queID: 24,
-    queTitle: ":",
-    queChoices: [
-      "",
-      "",
-      "",
-    ],
-    correctAnswer: "",
+    queTitle:
+      "Aktywa w bilansie, w świetle ustawy o rachunkowości są pogrupowane zgodnie z kryterium:",
+    queChoices: ["istotności", "wymagalności", "płynności"],
+    correctAnswer: "płynności",
   },
   {
     queID: 25,
-    queTitle: ":",
+    queTitle:
+      "Należności z tytułu dostaw i usług o okresie spłaty powyżej 12 miesięcy są wykazywane w bilansie jako:",
     queChoices: [
-      "",
-      "",
-      "",
+      "należności długoterminowe",
+      "należności krótkoterminowe",
+      "należności długo- lub krótkoterminowe w zależności od przyjętych zasad (polityki) rachunkowości",
     ],
-    correctAnswer: "",
+    correctAnswer: "należności krótkoterminowe",
   },
   {
     queID: 26,
-    queTitle: ":",
-    queChoices: [
-      "",
-      "",
-      "",
-    ],
-    correctAnswer: "",
+    queTitle: "Kapitał własny odpowiada wartościowo:",
+    queChoices: ["aktywom netto", "aktywom trwałym", "aktywom obrotowym"],
+    correctAnswer: "aktywom netto",
   },
   {
     queID: 27,
-    queTitle: ":",
+    queTitle: "Prawidłowa, wyprowadzona z równania bilansowego zależność, to:",
     queChoices: [
-      "",
-      "",
-      "",
+      "aktywa trwałe=kapitał własny+zobowiązania",
+      "aktywa trwałe=kapitał własny+zobowiązania-aktywa obrotowe",
+      "aktywa trwałe=kapitał własny+zobowiązania długoterminowe",
     ],
-    correctAnswer: "",
+    correctAnswer: "aktywa trwałe=kapitał własny+zobowiązania-aktywa obrotowe",
   },
   {
     queID: 28,
-    queTitle: ":",
-    queChoices: [
-      "",
-      "",
-      "",
-    ],
-    correctAnswer: "",
+    queTitle:
+      "Pasywa w bilansie, w świetle ustawy o rachunkowości są pogrupowane zgodnie z kryterium:",
+    queChoices: ["atrakcyjności", "wymagalności", "płynności"],
+    correctAnswer: "wymagalności",
   },
   {
     queID: 29,
+    queTitle: "Strata netto jest wykazywana w bilansie jako składnik:",
+    queChoices: [
+      "rozliczeń międzyokresowych przychodów",
+      "kapitału własnego",
+      "zobowiązań wobec właścicieli",
+    ],
+    correctAnswer: "kapitału własnego",
+  },
+  {
+    queID: 30,
+    queTitle: "Środki pieniężne w kasie przedsiębiorstwa stanowią element:",
+    queChoices: [
+      "należności krótkoterminowych",
+      "inwestycji krótkoterminowych",
+      "zapasów",
+    ],
+    correctAnswer: "inwestycji krótkoterminowych",
+  },
+  {
+    queID: 31,
+    queTitle:
+      "Zobowiązania z tytułu dostaw i usług o okresie spłaty powyżej 12 miesięcy są wykazywane w bilansie jako:",
+    queChoices: [
+      "zobowiązania długoterminowe",
+      "zobowiązania krótkoterminowe",
+      "zobowiązania długo- lub krótkoterminowe w zależności od przyjętych zasad (polityki) rachunkowości",
+    ],
+    correctAnswer: "zobowiązania krótkoterminowe",
+  },
+  {
+    queID: 32,
+    queTitle: "Prawidłowa, wyprowadzona z równania bilansowego zależność, to:",
+    queChoices: [
+      "aktywa obrotowe=kapitał własny+zobowiązania",
+      "aktywa obrotowe=kapitał własny+zobowiązania-aktywa trwałe",
+      "aktywa obrotowe=kapitał własny+zobowiązania długoterminowe",
+    ],
+    correctAnswer: "aktywa obrotowe=kapitał własny+zobowiązania-aktywa trwałe",
+  },
+  {
+    queID: 33,
+    queTitle: "Zysk netto jest wykazywany w bilansie jako składnik:",
+    queChoices: [
+      "rozliczeń międzyokresowych przychodów",
+      "kapitału własnego",
+      "zobowiązań wobec właścicieli",
+    ],
+    correctAnswer: "kapitału własnego",
+  },
+  {
+    queID: 34,
+    queTitle: "Stan równowagi bilansowej, to:",
+    queChoices: [
+      "równość między aktywami a kapitałem własnym",
+      "równowaga aktywów i pasywów na dany dzień bilansowy",
+      "to samo co ciągłość bilansowa",
+    ],
+    correctAnswer: "równowaga aktywów i pasywów na dany dzień bilansowy",
+  },
+  {
+    queID: 35,
+    queTitle:
+      "O zaliczeniu określonego składnika majątku do aktywów trwałych lub obrotowych decyduje:",
+    queChoices: [
+      "jego wartość",
+      "postać i funkcja, jaką pełni w działalności gospodarczej danej jednostk",
+      "możliwość jego zbycia w krótkim czasie",
+    ],
+    correctAnswer:
+      "postać i funkcja, jaką pełni w działalności gospodarczej danej jednostk",
+  },
+  {
+    queID: 36,
+    queTitle: "Środki trwałe w budowie stanowią w bilansie składnik:",
+    queChoices: [
+      "środków trwałych",
+      "rzeczowych aktywów trwałych",
+      "oddzialnej grupy aktywów trwałych",
+    ],
+    correctAnswer: "rzeczowych aktywów trwałych",
+  },
+  {
+    queID: 37,
+    queTitle: "Pasywa w bilansie są prezentowane:",
+    queChoices: [
+      "od największego do najmniejszego",
+      "według wzrastającej wymagalności",
+      "według wzrastającej płynności",
+    ],
+    correctAnswer: "według wzrastającej wymagalności",
+  },
+  {
+    queID: 38,
+    queTitle:
+      "Zobowiązania z tytułu wynagrodzeń wobec pracowników wykazuje się w bilansie w pozycji:",
+    queChoices: [
+      "funduszy specjalnych",
+      "zobowiązań długoterminowych",
+      "zobowiązań krótkoterminowych",
+    ],
+    correctAnswer: "zobowiązań krótkoterminowych",
+  },
+  {
+    queID: 39,
+    queTitle:
+      "O zaliczeniu zakupionego składnika aktywów do określonej kategorii bilansowej decyduje:",
+    queChoices: [
+      "jego wartość",
+      "funkcja, jaką pełni w działalności gospodarczej danej jednostki",
+      "podjęta uchwała organu zarządzajacego jednostką",
+    ],
+    correctAnswer:
+      "funkcja, jaką pełni w działalności gospodarczej danej jednostko",
+  },
+  {
+    queID: 40,
+    queTitle:
+      "Budynek biurowy przeznaczony na potrzeby jednostki kupiony ze środków z przyznanego na ten cel kredytu, jest:",
+    queChoices: [
+      "zobowiązaniem",
+      "składnikiem aktywów trwałych",
+      "w zależności od okresu na jaki został zaciągnięty kredyt jest zobowiązaniem długoterminowym lub krótkoterminowym",
+    ],
+    correctAnswer: "składnikiem aktywów trwałych",
+  },
+  {
+    queID: 41,
+    queTitle: "Środki pieniężne w banku to pozycja ujmowana w bilansie jako:",
+    queChoices: ["zapasy", "inwestycje krótkoterminowe", "kredyty i pożyczki"],
+    correctAnswer: "inwestycje krótkoterminowe",
+  },
+  {
+    queID: 42,
+    queTitle: "Operacja gospodarcza polegająca na zakupie towarów z odroczonym terminem płatności spowoduje następujące zmiany w bilansie:",
+    queChoices: [
+      "zmianę tylko struktury aktywów",
+      "zmianę tylko struktury pasywów",
+      "zmianę zarówno po stronie aktywów, jak i pasywów",
+    ],
+    correctAnswer: "zmianę zarówno po stronie aktywów, jak i pasywów",
+  },
+  {
+    queID: 43,
+    queTitle: "Jeżeli operacja gospodarcza dotyczy dwóch składników figurujących po tej samej stronie bilansu, tzn. dwóch składników aktywów albo dwóch składników pasywów, to zwiększenie jednego z nich spowoduje:",
+    queChoices: [
+      "zmniejszenie sumy bilansowej",
+      "zwiększenie sumy bilansowej",
+      "brak wpływu na sumę bilansową",
+    ],
+    correctAnswer: "brak wpływu na sumę bilansową",
+  },
+  {
+    queID: 44,
+    queTitle: "W bieżącym miesiącu zakupiono samochód ciężarowy, który przyjęto do użytkowania. Zapłata za zakupiony środek trwały nastąpi w terminie późniejszym. Wymieniona operacja gospodarcza spowoduje:",
+    queChoices: [
+      "zmianę struktury aktywów bez zmiany sumy bilansowej",
+      "zmianę struktury aktywów i pasywów powodującą zwiększenie sumy bilansowej",
+      "zmianę struktury aktywów i pasywów powodującą zmniejszenie sumy bilansowej",
+    ],
+    correctAnswer: "zmianę struktury aktywów i pasywów powodującą zwiększenie sumy bilansowej",
+  },
+  {
+    queID: 45,
+    queTitle: "W bieżącym miesiącu spłacono kolejną ratę kredytu bankowego ze środków zgromadzonych na rachunku bankowym. Wymieniona operacja gospodarcza spowoduje:",
+    queChoices: [
+      "zmianę struktury aktywów bez zmiany sumy bilansowej",
+      "zmianę struktury aktywów i pasywów powodującą zwiększenie sumy bilansowej",
+      "zmianę struktury aktywów i pasywów powodującą zmniejszenie sumy bilansowej",
+    ],
+    correctAnswer: "zmianę struktury aktywów i pasywów powodującą zmniejszenie sumy bilansowej",
+  },
+  {
+    queID: 46,
+    queTitle: "Operacja bilansowa wywołująca zmianę w aktywach i pasywach:",
+    queChoices: [
+      "zmienia sumę bilansową",
+      "nie zmienia sumy bilansowej",
+      "powoduje złamanie równowagi bilansowej",
+    ],
+    correctAnswer: "zmienia sumę bilansową",
+  },
+  {
+    queID: 47,
+    queTitle: "Bilansowa operacja gospodarcza wywołująca zmiany jednocześnie w aktywach i pasywach, to:",
+    queChoices: [
+      "zakup usług obcych potrzebnych jednostce do bieżącej działalności, za które zapłata nastąpi w terminie późniejszym",
+      "zakup i przyjęcie materiałów do magazynu, za które zapłata nastąpi w terminie późniejszym",
+      "pobranie środków pieniężnych z banku i ich wpłata do kasy firmy",
+    ],
+    correctAnswer: "zakup i przyjęcie materiałów do magazynu, za które zapłata nastąpi w terminie późniejszym",
+  },
+  {
+    queID: 48,
+    queTitle: "Zdarzeniem gospodarczym (operacją gospodarczą) będącym podmiotem opisu w rachunkowości jest:",
+    queChoices: [
+      "zawarcie umowy o pracę",
+      "złożenie zamówienia u dostawcy",
+      "spłata uprzednio zaciągniętej pożyczki",
+    ],
+    correctAnswer: "spłata uprzednio zaciągniętej pożyczki",
+  },
+  {
+    queID: 49,
+    queTitle: "Każde zdarzenie gospodarcze (operacja gospodarcza):",
+    queChoices: [
+      "ma określoną datę wystąpienia",
+      "ma określony termin płatności",
+      "jest identyfikowane w jednostkach naturalnych",
+    ],
+    correctAnswer: "ma określoną datę wystąpienia",
+  },/*
+  {
+    queID: 50,
     queTitle: ":",
     queChoices: [
       "",
@@ -290,7 +493,7 @@ export const classroom: Question = [
     correctAnswer: "",
   },
   {
-    queID: 30,
+    queID: 51,
     queTitle: ":",
     queChoices: [
       "",
@@ -299,4 +502,4 @@ export const classroom: Question = [
     ],
     correctAnswer: "",
   },*/
-]
+];
