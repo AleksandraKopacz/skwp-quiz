@@ -10,7 +10,8 @@ import {
   chapter2,
   chapter3,
   chapter4,
-  chapter5 /*, chapter6, chapter7, chapter8, chapter9, chapter10, chapter11*/,
+  chapter5,
+  chapter6 /*, chapter7, chapter8, chapter9, chapter10, chapter11*/,
 } from "~/lib/textbook-questions";
 import { classroom } from "~/lib/class-questions";
 
@@ -48,7 +49,8 @@ export function QuizForm(chapterId: { chapterId: string }) {
           chapter3,
           chapter4,
           chapter5,
-          /*chapter6, chapter7, chapter8, chapter9, chapter10, chapter11,*/ classroom,
+          chapter6,
+          /*chapter7, chapter8, chapter9, chapter10, chapter11,*/ classroom,
         );
     }
   };
