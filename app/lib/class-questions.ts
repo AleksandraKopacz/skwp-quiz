@@ -167,11 +167,11 @@ export const classroom: Question = [
     queTitle: "Rok obrotowy, to:",
     queChoices: [
       "zawsze okres 12 kolejnych pełnych miesięcy kalendarzowych, trwający od 1 stycznia do 31 grudnia danego roku , tj. okres zgodny z rokiem kalendarzowym",
-      "Rok kalendarzowy lub inny okres trwający 12 kolejnych pełnych miesięcy kalendarzowych, przyjmowany również do celów podatkowych",
+      "rok kalendarzowy lub inny okres trwający 12 kolejnych pełnych miesięcy kalendarzowych, przyjmowany również do celów podatkowych",
       "rok następujący po roku przestępnym",
     ],
     correctAnswer:
-      "Rok kalendarzowy lub inny okres trwający 12 kolejnych pełnych miesięcy kalendarzowych, przyjmowany również do celów podatkowych",
+      "rok kalendarzowy lub inny okres trwający 12 kolejnych pełnych miesięcy kalendarzowych, przyjmowany również do celów podatkowych",
   },
   {
     queID: 19,
