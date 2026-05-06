@@ -315,11 +315,11 @@ export const classroom: Question = [
       "O zaliczeniu określonego składnika majątku do aktywów trwałych lub obrotowych decyduje:",
     queChoices: [
       "jego wartość",
-      "postać i funkcja, jaką pełni w działalności gospodarczej danej jednostk",
+      "postać i funkcja, jaką pełni w działalności gospodarczej danej jednostki",
       "możliwość jego zbycia w krótkim czasie",
     ],
     correctAnswer:
-      "postać i funkcja, jaką pełni w działalności gospodarczej danej jednostk",
+      "postać i funkcja, jaką pełni w działalności gospodarczej danej jednostki",
   },
   {
     queID: 36,
