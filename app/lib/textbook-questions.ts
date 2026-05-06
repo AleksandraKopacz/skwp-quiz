@@ -546,7 +546,7 @@ export const chapter5: Question = [
     queTitle:
       "Konto '870 Podatek dochodowy i inne obowiązkowe obciążenia wyniku finansowego' jest:",
     queChoices: [
-      "kontem bilansowy",
+      "kontem bilansowym",
       "kontem wynikowym",
       "kontem pozabilansowym",
     ],
@@ -586,3 +586,72 @@ export const chapter5: Question = [
       "można w ciągu okresu obok lub zamiast jednostek pieniężnych stosować zapisy w jednostkach naturalnych (np. sztukach, litrach, kilogramach)",
   },
 ];
+
+export const chapter6: Question = [
+  {
+    queID: 61,
+    queTitle: "Do księgowania obrotu gotówkowego służy konto:",
+    queChoices: [
+      "'130-1 Rachunek bieżący'",
+      "'100 Kasa'",
+      "'200 Rozrachunki z odbiorcami'",
+    ],
+    correctAnswer:
+      "'100 Kasa'",
+  },
+  {
+    queID: 62,
+    queTitle: "Dowodem potwierdzającym przyjęcie środków pieniężnych do kasy może być:",
+    queChoices: [
+      "Lista płac",
+      "Wniosek o zaliczkę",
+      "faktura sprzedaży opłacona gotówką",
+    ],
+    correctAnswer:
+      "faktura sprzedaży opłacona gotówką",
+  },
+  {
+    queID: 63,
+    queTitle: "Dowodem potwierdzającyhm rozchód środków z rachunku bieżącego może być:",
+    queChoices: [
+      "'Dowód wypłaty - KW'",
+      "'Wyciąg bankowy'",
+      "faktura sprzedaży opłacona gotówką",
+    ],
+    correctAnswer:
+      "'Wyciąg bankowy'",
+  },
+  {
+    queID: 64,
+    queTitle: "Konto '100 Kasa' może na koniec okresu sprawozdawczego wykazywać saldo:",
+    queChoices: [
+      "wyłącznie Dt (Wn)",
+      "wyłącznie Ct (Ma)",
+      "Dt (Wn) lub Ct (Ma)",
+    ],
+    correctAnswer:
+      "wyłącznie Dt (Wn)",
+  },
+  {
+    queID: 65,
+    queTitle: "Konto '139 Środki pieniężne w drodze' służy m.in. do księgowania:",
+    queChoices: [
+      "należnych środków pieniężnych od odbiorców z tytułu sprzedaży składników majątku",
+      "przyszłych wydatków na rzecz dostawców z tytułu zakupu składników majątku",
+      "przemieszczania środków pieniężnych pomiędzy kasą i rachunkiem bieżącym",
+    ],
+    correctAnswer:
+      "przemieszczania środków pieniężnych pomiędzy kasą i rachunkiem bieżącym",
+  },
+  {
+    queID: 66,
+    queTitle: "Którą operację gospodarczą księguje się następująco: Dt '234 Pozostałe rozrachunki z pracownikami' / Ct '100 Kasa':",
+    queChoices: [
+      "uregulowano środkami pieniężnymi z kasy zobowiązanie z tytułu wynagrodzeń",
+      "na wniosek pracownika wypłacono z kasy zaliczkę na pokrycie kosztów podróży służbowej",
+      "pracownik zwrócił do kasy niewykorzystaną kwotę zaliczki",
+    ],
+    correctAnswer:
+      "na wniosek pracownika wypłacono z kasy zaliczkę na pokrycie kosztów podróży służbowej",
+  },
+]
