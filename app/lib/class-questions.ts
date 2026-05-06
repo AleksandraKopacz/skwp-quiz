@@ -55,7 +55,7 @@ export const classroom: Question = [
   {
     queID: 6,
     queTitle:
-      "Biorąc po uwagę funkcje - rachunkowości, można w niej, w historycznym podziale, wyróżnić:",
+      "Biorąc pod uwagę funkcje rachunkowości, można w niej, w historycznym podziale, wyróżnić:",
     queChoices: [
       "księgowość, rachunek kosztów, sprawozdawczość finansową",
       "rachunkowość finansową i zarządczą",
@@ -120,7 +120,7 @@ export const classroom: Question = [
   {
     queID: 12,
     queTitle:
-      "W wyniku finansowym, bez względu na jego wysokość, należy uwzględnić m.in. Wszystkie poniesione pozostałe koszty operacyjne, zgodnie z zasadą:",
+      "W wyniku finansowym, bez względu na jego wysokość, należy uwzględnić m.in. wszystkie poniesione pozostałe koszty operacyjne, zgodnie z zasadą:",
     queChoices: ["współmierności", "ostrożnej wyceny", "ciągłości"],
     correctAnswer: "ostrożnej wyceny",
   },
@@ -174,16 +174,6 @@ export const classroom: Question = [
       "Rok kalendarzowy lub inny okres trwający 12 kolejnych pełnych miesięcy kalendarzowych, przyjmowany również do celów podatkowych",
   },
   {
-    queID: 18,
-    queTitle: "Spółką niemającą osobowości prawnej jest:",
-    queChoices: [
-      "spółka z ograniczoną odpowiedzialnością",
-      "spółka partnerska",
-      "spółka akcyjna",
-    ],
-    correctAnswer: "spółka partnerska",
-  },
-  {
     queID: 19,
     queTitle: "Przepisy ustawy o rachunkowości normują między innymi:",
     queChoices: [
@@ -202,17 +192,6 @@ export const classroom: Question = [
       "spółka z ograniczoną odpowiedzialnością",
     ],
     correctAnswer: "spółka z ograniczoną odpowiedzialnością",
-  },
-  {
-    queID: 21,
-    queTitle:
-      "Zasady ustalania wyniku finasowego (zysku/straty netto) wypracowanego przez podmiot gospodarczy normują przepisy:",
-    queChoices: [
-      "ustawy o rachunkowości",
-      "ustawy o podatku dochodowym od osób fizycznych",
-      "ustawy o podatku dochodowym od osób prawnych",
-    ],
-    correctAnswer: "ustawy o rachunkowości",
   },
   {
     queID: 22,
