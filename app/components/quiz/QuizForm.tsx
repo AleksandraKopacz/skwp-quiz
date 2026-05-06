@@ -3,6 +3,7 @@ import { Suspense, useEffect, useState } from "react";
 // COMPONENTS
 import { Results } from "./Results";
 import { Radio } from "./Radio";
+import { Button } from "@headlessui/react";
 // DATA
 import {
   chapter1,
@@ -103,10 +104,10 @@ export function QuizForm(chapterId: { chapterId: string }) {
   };
 
   return (
-    <div>
+    <div className="p-4">
       <ul>
         {choosenQuestions.map((question, index) => (
-          <>
+          <div className="py-2">
             <li key={index}>
               {index + 1}. {question.queTitle}
             </li>
@@ -134,19 +135,29 @@ export function QuizForm(chapterId: { chapterId: string }) {
                 </li>
               ))}
             </ul>
-          </>
+          </div>
         ))}
       </ul>
       {finished ? (
         <>
-          <button onClick={() => restartQuiz()}>Restart</button>
+          <Button
+            onClick={() => restartQuiz()}
+            className="rounded bg-emerald-600 px-4 py-2 text-sm text-white data-active:bg-emerald-700 data-hover:bg-emerald-500"
+          >
+            Restart
+          </Button>
           <Results
             correctAnswers={correctCount}
             numberOfQuestions={NUMBER_OF_QUESTIONS}
           />
         </>
       ) : (
-        <button onClick={() => submitAnswers()}>Zakończ</button>
+        <Button
+          onClick={() => submitAnswers()}
+          className="rounded bg-emerald-600 px-4 py-2 text-sm text-white data-active:bg-emerald-700 data-hover:bg-emerald-500"
+        >
+          Zakończ
+        </Button>
       )}
     </div>
   );

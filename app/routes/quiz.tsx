@@ -2,10 +2,10 @@ import { NavBar } from "~/components/ui/NavBar";
 import type { Route } from "./+types/quiz";
 import { QuizForm } from "~/components/quiz/QuizForm";
 
-export function meta({}: Route.MetaArgs) {
+export function meta({ params }: Route.MetaArgs) {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: "Quiz" },
+    { name: "description", content: "Quiz z zagadnień z księgowości" },
   ];
 }
 
