@@ -29,9 +29,9 @@ export function QuizForm(chapterId: { chapterId: string }) {
         return chapter4;
       case "5":
         return chapter5;
-      /*case "6":
+      case "6":
         return chapter6;
-      case "7":
+      /*case "7":
         return chapter7;
       case "8":
         return chapter8;
