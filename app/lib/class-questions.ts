@@ -259,16 +259,6 @@ export const classroom: Question = [
     correctAnswer: "kapitału własnego",
   },
   {
-    queID: 30,
-    queTitle: "Środki pieniężne w kasie przedsiębiorstwa stanowią element:",
-    queChoices: [
-      "należności krótkoterminowych",
-      "inwestycji krótkoterminowych",
-      "zapasów",
-    ],
-    correctAnswer: "inwestycji krótkoterminowych",
-  },
-  {
     queID: 31,
     queTitle:
       "Zobowiązania z tytułu dostaw i usług o okresie spłaty powyżej 12 miesięcy są wykazywane w bilansie jako:",

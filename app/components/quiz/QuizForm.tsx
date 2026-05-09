@@ -1,5 +1,5 @@
 // HOOKS
-import { Suspense, useEffect, useState } from "react";
+import { useState } from "react";
 // COMPONENTS
 import { Results } from "./Results";
 import { Radio } from "./Radio";
@@ -116,15 +116,6 @@ export function QuizForm(chapterId: { chapterId: string }) {
             <ul>
               {question.queChoices.map((choice: string, index2: number) => (
                 <li key={index2}>
-                  {/*<label>
-                    <input
-                      name={question.queTitle}
-                      type="radio"
-                      value={choice}
-                      onChange={(e) => saveAnswer(e.target.value, index)}
-                    />
-                    {choice}
-                  </label> */}
                   <Radio
                     key={question.queTitle}
                     question={question.queTitle}

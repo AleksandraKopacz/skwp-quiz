@@ -272,7 +272,7 @@ export const chapter3: Question = [
     queTitle: "Jednostka osiąga zysk netto wtedy, gdy:",
     queChoices: [
       "wartość aktywów netto na koniec okresu sprawozdawczego przewyższa wartość aktywów netto na początek tego okresu, po wyłączeniu wszelkich wypłat na rzecz właścicieli i wkładów wniesionych przez właścicieli w danym okresie",
-      "wartość aktywów netto na początek okresu sprawozdawczego przewyższa wartość aktywów netto na koniec tegp okresu, po wyłączeniu wszelkich wypłat na rzecz właścicieli i wkładów wniesionych przez właścicieli w danym okresie",
+      "wartość aktywów netto na początek okresu sprawozdawczego przewyższa wartość aktywów netto na koniec tego okresu, po wyłączeniu wszelkich wypłat na rzecz właścicieli i wkładów wniesionych przez właścicieli w danym okresie",
       "wartość zobowiązań na koniec okresu sprawozdzawczego jest niższa od wartości zobowiązań na początek tego okresu, po wyłączeniu wszelkich wypłat na rzecz właścicieli i wkładów wniesionych przez właścicieli w danym okresie",
     ],
     correctAnswer:
