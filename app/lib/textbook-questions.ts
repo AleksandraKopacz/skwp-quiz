@@ -596,45 +596,45 @@ export const chapter6: Question = [
       "'100 Kasa'",
       "'200 Rozrachunki z odbiorcami'",
     ],
-    correctAnswer:
-      "'100 Kasa'",
+    correctAnswer: "'100 Kasa'",
   },
   {
     queID: 62,
-    queTitle: "Dowodem potwierdzającym przyjęcie środków pieniężnych do kasy może być:",
+    queTitle:
+      "Dowodem potwierdzającym przyjęcie środków pieniężnych do kasy może być:",
     queChoices: [
       "Lista płac",
       "Wniosek o zaliczkę",
       "faktura sprzedaży opłacona gotówką",
     ],
-    correctAnswer:
-      "faktura sprzedaży opłacona gotówką",
+    correctAnswer: "faktura sprzedaży opłacona gotówką",
   },
   {
     queID: 63,
-    queTitle: "Dowodem potwierdzającyhm rozchód środków z rachunku bieżącego może być:",
+    queTitle:
+      "Dowodem potwierdzającyhm rozchód środków z rachunku bieżącego może być:",
     queChoices: [
       "'Dowód wypłaty - KW'",
       "'Wyciąg bankowy'",
       "faktura sprzedaży opłacona gotówką",
     ],
-    correctAnswer:
-      "'Wyciąg bankowy'",
+    correctAnswer: "'Wyciąg bankowy'",
   },
   {
     queID: 64,
-    queTitle: "Konto '100 Kasa' może na koniec okresu sprawozdawczego wykazywać saldo:",
+    queTitle:
+      "Konto '100 Kasa' może na koniec okresu sprawozdawczego wykazywać saldo:",
     queChoices: [
       "wyłącznie Dt (Wn)",
       "wyłącznie Ct (Ma)",
       "Dt (Wn) lub Ct (Ma)",
     ],
-    correctAnswer:
-      "wyłącznie Dt (Wn)",
+    correctAnswer: "wyłącznie Dt (Wn)",
   },
   {
     queID: 65,
-    queTitle: "Konto '139 Środki pieniężne w drodze' służy m.in. do księgowania:",
+    queTitle:
+      "Konto '139 Środki pieniężne w drodze' służy m.in. do księgowania:",
     queChoices: [
       "należnych środków pieniężnych od odbiorców z tytułu sprzedaży składników majątku",
       "przyszłych wydatków na rzecz dostawców z tytułu zakupu składników majątku",
@@ -645,7 +645,8 @@ export const chapter6: Question = [
   },
   {
     queID: 66,
-    queTitle: "Którą operację gospodarczą księguje się następująco: Dt '234 Pozostałe rozrachunki z pracownikami' / Ct '100 Kasa':",
+    queTitle:
+      "Którą operację gospodarczą księguje się następująco: Dt '234 Pozostałe rozrachunki z pracownikami' / Ct '100 Kasa':",
     queChoices: [
       "uregulowano środkami pieniężnymi z kasy zobowiązanie z tytułu wynagrodzeń",
       "na wniosek pracownika wypłacono z kasy zaliczkę na pokrycie kosztów podróży służbowej",
@@ -654,4 +655,167 @@ export const chapter6: Question = [
     correctAnswer:
       "na wniosek pracownika wypłacono z kasy zaliczkę na pokrycie kosztów podróży służbowej",
   },
-]
+];
+export const chapter7: Question = [
+  {
+    queID: 71,
+    queTitle:
+      "Obowiązek podatkowy w podatku od towarów i usług (VAT należny) powstaje w związku:",
+    queChoices: [
+      "z zakupem towarów od dostawcy krajowego",
+      "ze sprzedażą (dostawą) towarów dokonaną na rzecz odbiorcy krajowego (zrealizowaną na terytorium kraju)",
+      "z naliczeniem wynagrodzeń z tytułu umowy o pracę",
+    ],
+    correctAnswer:
+      "ze sprzedażą (dostawą) towarów dokonaną na rzecz odbiorcy krajowego (zrealizowaną na terytorium kraju)",
+  },
+  {
+    queID: 72,
+    queTitle:
+      "Podatek od towarów i usług (VAT należny) wynikający z operacji sprzedaży towarów (dostawcy towarów) należy udokumentować:",
+    queChoices: [
+      "dowodem 'Wydanie na zewnątrz - WZ'",
+      "wyciągiem bankowym",
+      "fakturą",
+    ],
+    correctAnswer: "fakturą",
+  },
+  {
+    queID: 73,
+    queTitle: "Saldo Dt (Wn) konta '220-1 Rozrachunki z tytułu VAT' oznacza:",
+    queChoices: [
+      "nadwyżkę podatku należnego nad podatkiem naliczonym",
+      "nadwyżkę podatku naliczonego nad podatkiem należnym",
+      "zobowiązanie z tytułu VAT",
+    ],
+    correctAnswer: "nadwyżkę podatku naliczonego nad podatkiem należnym",
+  },
+  {
+    queID: 74,
+    queTitle:
+      "Należność od odbiorcy z tytułu sprzedaży usług obciążonych podatkiem od towarów i usług (VAT należnym) ujmuje się na koncie '200 Rozrachunki z odbiorcami' w:",
+    queChoices: [
+      "kwocie brutto, czyli łącznie z VAT",
+      "kwocie netto, czyli bez VAT",
+      "brutto pomniejszonej o kwotę netto",
+    ],
+    correctAnswer: "kwocie brutto, czyli łącznie z VAT",
+  },
+  {
+    queID: 75,
+    queTitle:
+      "Przychody ze sprzedaży towarów obciążonych podatkiem od towarów i usług (VAT należnym) ujmuje się na koncie '730 Przychody ze sprzedaży towarów' w:",
+    queChoices: [
+      "kwocie brutto, czyli łącznie z VAT",
+      "kwocie netto, czyli bez VAT",
+      "cenie nabycia sprzedanych towarów",
+    ],
+    correctAnswer: "kwocie netto, czyli bez VAT",
+  },
+  {
+    queID: 76,
+    queTitle: "Saldo Ct (Ma) konta '202 Rozrachunki z dostawcami' oznacza:",
+    queChoices: [
+      "zobowiązanie wobec dostawców",
+      "należność od dostawców",
+      "zobowiązanie z tytułu podatku naliczonego",
+    ],
+    correctAnswer: "zobowiązanie wobec dostawców",
+  },
+  {
+    queID: 77,
+    queTitle: "Powstanie należności i zobowiązań jest realizacją zasady:",
+    queChoices: ["kasowej", "memoriałowej", "współmierności"],
+    correctAnswer: "memoriałowej",
+  },
+  {
+    queID: 78,
+    queTitle:
+      "Którą operację gospodarczą księguje się następująco: Dt (Wn) '230 Rozrachunki z tytułu wynagrodzeń' / Ct (Ma) '130-1 Rachunek bieżący':",
+    queChoices: [
+      "uregulowano z rachunku bieżącego zobowiązanie z tytułu uprzednio naliczonych wynagrodzeń",
+      "sporządzono i zaksięgowano listę płac",
+      "uregulowano z rachunku bieżacego zobowiązanie wobec pracownika z tytułu odbytej podróży służbowej",
+    ],
+    correctAnswer:
+      "uregulowano z rachunku bieżącego zobowiązanie z tytułu uprzednio naliczonych wynagrodzeń",
+  },
+  {
+    queID: 79,
+    queTitle:
+      "Operację zakupu materiałów udokumentowaną wystawioną przez dostawcę fakturą, zawierającą podatek od towarów i usług podlegający odliczeniu (VAT naliczony), u nabywcy ujmuje się:",
+    queChoices: [
+      "tylko na kontach księgi głównej",
+      "tylko w ewidencji zakupu (rejestrze zakupu)",
+      "na kontach księgi głównej i w ewidencji zakupu (rejestrze zakupu)",
+    ],
+    correctAnswer:
+      "na kontach księgi głównej i w ewidencji zakupu (rejestrze zakupu)",
+  },
+  {
+    queID: 710,
+    queTitle: "Konto '234 Pozostałe rozrachunki z pracownikami':",
+    queChoices: [
+      "nie może wykazywać salda Ct (Ma)",
+      "nie może wykazywać salda Dt (Wn)",
+      "może wykazywać równocześnie saldo Dt (Wn) i saldo Ct (Ma)",
+    ],
+    correctAnswer: "może wykazywać równocześnie saldo Dt (Wn) i saldo Ct (Ma)",
+  },
+  {
+    queID: 711,
+    queTitle:
+      "Zaliczka na podatek dochodowy od osób fizycznych (PIT) naliczona od wynagrodzeń należnych pracownikom:",
+    queChoices: [
+      "obciąża koszty pracodawcy i ujmowana jest na koncie '405 Ubezpieczenia społeczne i inne świadczenia'",
+      "jest potrącana z należnych pracownikom wynagrodzeń brutto",
+      "jest częściowo potrącana z należnych pracownikom wynagrodzeń brutto i częściowo bciąża koszty pracodawcy i ujmowana jest na koncie '405 Ubezpieczenia społeczne i inne świadczenia'",
+    ],
+    correctAnswer: "jest potrącana z należnych pracownikom wynagrodzeń brutto",
+  },
+  {
+    queID: 712,
+    queTitle:
+      "Równowartość naliczonych odsetek za zwłokę w zapłacie należności z tytułu dostaw towarów księguje się następująco:",
+    queChoices: [
+      "Dt (Wn) '200 Rozrachunki z odbiorcami' / Ct (Ma) '750-2 Przychody finansowe - Odsetki'",
+      "Dt (Wn) '750-2 Przychody finansowe - Odsetki' / Ct (Ma) '200 Rozrachunki z odbiorcami'",
+      "Dt (Wn) '751-1 Koszty finansowe - Odsetki' / Ct (Ma) '200 Rozrachunki z odbiorcami'",
+    ],
+    correctAnswer:
+      "Dt (Wn) '200 Rozrachunki z odbiorcami' / Ct (Ma) '750-2 Przychody finansowe - Odsetki'",
+  },
+  {
+    queID: 713,
+    queTitle:
+      "Którą operację gospodarczą księguje się na kontach w następujący sposób: Dt (Wn) '404 Wynagrodzenia' / Ct (Ma) '230 Rozrachunki z tytułu wynagrodzeń':",
+    queChoices: [
+      "naliczono składki na ubezpieczenia społeczne obciążające pracodawcę",
+      "naliczono wynagrodzenie z tytułu umowy zlecenia",
+      "wypłacono wynagrodzenia należne pracownikom z tytułu umów o pracę",
+    ],
+    correctAnswer: "naliczono wynagrodzenie z tytułu umowy zlecenia",
+  },
+  {
+    queID: 714,
+    queTitle:
+      "Podstawowym celem prowadzenia księgi pomocniczej 'Szczegółowa ewidencja (kartoteka) rozrachunków z pracownikami', będącej uszczegółowieniem zapisów na koncie '234 Pozostałe rozrachunki z pracownikami', jest m.in. ustalenie:",
+    queChoices: [
+      "obrotów i sald rozrachunków z podziałem na pracowników",
+      "należnych pracownikom wynagrodzeń",
+      "składek na ubezpieczenia społeczne",
+    ],
+    correctAnswer: "obrotów i sald rozrachunków z podziałem na pracowników",
+  },
+  {
+    queID: 715,
+    queTitle:
+      "Potrącone z wynagrodzeń składki na ubezpieczenia społeczne (na podstawie sporządzonej listy płac) ujmuje się na koncie:",
+    queChoices: [
+      "'405 Ubezpieczenia społeczne i inne świadczenia'",
+      "'220-4 Rozrachunki z ZUS'",
+      "'234 Pozostałe rozrachunki z pracownikami'",
+    ],
+    correctAnswer: "'220-4 Rozrachunki z ZUS'",
+  },
+];

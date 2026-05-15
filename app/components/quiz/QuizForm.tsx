@@ -11,7 +11,8 @@ import {
   chapter3,
   chapter4,
   chapter5,
-  chapter6 /*, chapter7, chapter8, chapter9, chapter10, chapter11*/,
+  chapter6,
+  chapter7 /*, chapter8, chapter9, chapter10, chapter11*/,
 } from "~/lib/textbook-questions";
 import { classroom } from "~/lib/class-questions";
 
@@ -31,9 +32,9 @@ export function QuizForm(chapterId: { chapterId: string }) {
         return chapter5;
       case "6":
         return chapter6;
-      /*case "7":
+      case "7":
         return chapter7;
-      case "8":
+      /*case "8":
         return chapter8;
       case "9":
         return chapter9;
@@ -50,7 +51,8 @@ export function QuizForm(chapterId: { chapterId: string }) {
           chapter4,
           chapter5,
           chapter6,
-          /*chapter7, chapter8, chapter9, chapter10, chapter11,*/ classroom,
+          chapter7,
+          /*chapter8, chapter9, chapter10, chapter11,*/ classroom,
         );
     }
   };
