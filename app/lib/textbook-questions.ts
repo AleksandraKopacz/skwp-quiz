@@ -819,3 +819,84 @@ export const chapter7: Question = [
     correctAnswer: "'220-4 Rozrachunki z ZUS'",
   },
 ];
+export const chapter8: Question = [
+  {
+    queID: 81,
+    queTitle: "Do rzeczowych aktywów obrotowych (zapasów) zalicza się:",
+    queChoices: ["środki trwałe w budowie", "środki pieniężne", "materiały"],
+    correctAnswer: "materiały",
+  },
+  {
+    queID: 82,
+    queTitle:
+      "Rozchód towarów z magazynu w związku z ich sprzedażą może być potwierdzony:",
+    queChoices: [
+      "dowodem 'Rozchód wewnętrzny - RW'",
+      "dowodem 'Wydanie na zewnątrz - WZ'",
+      "fakturą zakupu",
+    ],
+    correctAnswer: "dowodem 'Wydanie na zewnątrz - WZ'",
+  },
+  {
+    queID: 83,
+    queTitle:
+      "Jednostka gospodarcza zakupiła 100 szt. towarów w jednostkowej cenie netto 200 zł oraz poniosła koszty ich transportu o wartości 10 zł/szt. Wartość zakupionych towarów w cenie nabycia wynosi:",
+    queChoices: ["20.000 zł", "21.000 zł", "1.000 zł"],
+    correctAnswer: "21.000 zł",
+  },
+  {
+    queID: 84,
+    queTitle:
+      "Saldo Ct (Ma) konta '300-3 Rozliczenie zakupu materiałów' oznacza:",
+    queChoices: [
+      "dostawy niefakturowane",
+      "materiały w drodze",
+      "materiały w magazynie",
+    ],
+    correctAnswer: "dostawy niefakturowane",
+  },
+  {
+    queID: 85,
+    queTitle:
+      "Wydanie towarów z magazynu w związku z ich sprzedażą należy ująć na koncie:",
+    queChoices: [
+      "'730 Przychody ze sprzedaży towarów'",
+      "'731 Wartość sprzedanych towarów'",
+      "'202 Rozrachunki z dostawcami'",
+    ],
+    correctAnswer: "'731 Wartość sprzedanych towarów'",
+  },
+  {
+    queID: 86,
+    queTitle:
+      "Księga pomocnicza o nazwie 'Kartoteka ilościowo-wartościowa materiałów' stanowi uszczegółowienie zapisów prowadzonych na koncie księgi głównej:",
+    queChoices: [
+      "'401 Zużycie materiałów i energii'",
+      "'080 Środki trwałe w budowie'",
+      "'310 Materiały'",
+    ],
+    correctAnswer: "'310 Materiały'",
+  },
+  {
+    queID: 87,
+    queTitle: "Konto '300-4 Rozliczenie zakupu towarów':",
+    queChoices: [
+      "nie może wykazywać salda Ct (Ma)",
+      "nie może wykazywać salda Dt (Wn)",
+      "może wykazywać równocześnie saldo Dt (Wn) i saldo Ct (Ma)",
+    ],
+    correctAnswer: "może wykazywać równocześnie saldo Dt (Wn) i saldo Ct (Ma)",
+  },
+  {
+    queID: 88,
+    queTitle:
+      "Przyjęto do magazynu na podstawie dowodu 'Przyjęcie z zewnątrz - PZ' zakupione materiały. Która dekretacja tego zdarzenia jest prawidłowa:",
+    queChoices: [
+      "Dt (Wn) '310 Materiały' / Ct (Ma) '300-3 Rozliczenie zakupu materiałów'",
+      "Dt (Wn) '300-3 Rozliczenie zakupu materiałów' / Ct (Ma) 'Materiały'",
+      "Dt (Wn) '310 Materiały' / Ct (Ma) '202 Rozrachunki z dostawcami'",
+    ],
+    correctAnswer:
+      "Dt (Wn) '310 Materiały' / Ct (Ma) '300-3 Rozliczenie zakupu materiałów'",
+  },
+];
