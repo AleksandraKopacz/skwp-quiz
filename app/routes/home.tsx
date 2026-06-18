@@ -10,9 +10,13 @@ export function meta({}: Route.MetaArgs) {
   ];
 }
 
+export async function loader() {
+      throw redirect("/quiz/random");
+}
+
 export default function Home() {
   useEffect(() => {
-    throw redirect("/quiz/random");
+    loader();
   }, []);
   return (
     <>
