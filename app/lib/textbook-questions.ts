@@ -900,3 +900,317 @@ export const chapter8: Question = [
       "Dt (Wn) '310 Materiały' / Ct (Ma) '300-3 Rozliczenie zakupu materiałów'",
   },
 ];
+export const chapter9: Question = [
+  {
+    queID: 91,
+    queTitle:
+      "Nabyte środki trwałe wycenia się na moment przyjęcia ich do używania w:",
+    queChoices: ["cenie zakupu", "cenie sprzedaży netto", "cenie nabycia"],
+    correctAnswer: "cenie nabycia",
+  },
+  {
+    queID: 92,
+    queTitle:
+      "Naliczoną za bieżący okres sprawozdawczy amortyzację samochodu ciężarowego (zaliczonego do środków trwałych) należy ująć na koncie:",
+    queChoices: [
+      "'010-4 Środki trwałe - Środki transportu'",
+      "'070-4 Umorzenie środków trwałych - Umowrzenie środków transportu'",
+      "'401 Zużycie materiałów i energii'",
+    ],
+    correctAnswer:
+      "'070-4 Umorzenie środków trwałych - Umowrzenie środków transportu'",
+  },
+  {
+    queID: 93,
+    queTitle:
+      "Konto '080 Środki trwałe w budowie' może na koniec okresu wykazywać saldo:",
+    queChoices: ["Ct (Ma)", "Dt (Wn)", "Dt (Wn) lub Ct (Ma)"],
+    correctAnswer: "Dt (Wn)",
+  },
+  {
+    queID: 94,
+    queTitle:
+      "Zakończono montaż maszyny produkcyjnej i przyjęto ją do używania na podstawie dowodu 'Przyjęcie środka trwałego do używania - OT'. Która dekretacja tego zdarzenia jest prawidłowa:",
+    queChoices: [
+      "Dt (Wn) '010-3 Środki trwałe - Urządzenia techniczne i maszyny' / Ct (Ma) '080 Środki trwałe w budowie'",
+      "Dt (Wn) '300-2 Rozliczenie zakupu środków trwałych i środków trwałych w budowie' / Ct (Ma) '080 Środki trwałe w budowie'",
+      "Dt (Wn) '080 Środki trwałe w budowie' / Ct (Ma) '010-3 Środki trwałe - Urządzenia techniczne i maszyny'",
+    ],
+    correctAnswer:
+      "Dt (Wn) '010-3 Środki trwałe - Urządzenia techniczne i maszyny' / Ct (Ma) '080 Środki trwałe w budowie'",
+  },
+  {
+    queID: 95,
+    queTitle:
+      "Saldo końcowe konta '010-4 Środki trwałe - Środki transportu' wynosi 150.000, natomiast konta '070-4 Umorzenie środków trwałych - Umorzenie środków transportu' 90.000. Wartość bilansowa (netto) środków trwałych wynosi:",
+    queChoices: ["150.000", "60.000", "240.000"],
+    correctAnswer: "60.000",
+  },
+  {
+    queID: 96,
+    queTitle:
+      "Nabyte licencje, które zakwalifikowano do wartości niematerialnych i prawnych:",
+    queChoices: [
+      "amortyzuje się przez okres ich ekonomicznej użyteczności",
+      "nie podlegają amortyzacji",
+      "mogą być ulepszone w wyniku ich rozbudowy i konstrukcji",
+    ],
+    correctAnswer: "amortyzuje się przez okres ich ekonomicznej użyteczności",
+  },
+  {
+    queID: 97,
+    queTitle:
+      "Wartość początkowa samochodu osobowego wykorzystywanego do działalności mieszanej (do działalności gospodarczej i do celów prywatnych) obejmuje m.in.:",
+    queChoices: [
+      "opłatę za prowadzenie rachunku bieżącego",
+      "podatek od nieruchumości",
+      "podatek VAT niepodlegający odliczeniu związany z zakupem tego samochodu",
+    ],
+    correctAnswer:
+      "podatek VAT niepodlegający odliczeniu związany z zakupem tego samochodu",
+  },
+  {
+    queID: 98,
+    queTitle:
+      "Wartość netto (niezamortyzowana) środku trwałego wycofanego z używania w związku z jego likwidacją obciąża:",
+    queChoices: [
+      "koszty podstawowej działalności operacyjnej",
+      "pozostałe koszty operacyjne",
+      "koszty finansowe",
+    ],
+    correctAnswer: "pozostałe koszty operacyjne",
+  },
+  {
+    queID: 99,
+    queTitle:
+      "Ulepszeniu mogą podlegać wykorzystywane do działalności operacyjnej:",
+    queChoices: ["budynki", "grunty", "patenty"],
+    correctAnswer: "budynki",
+  },
+  {
+    queID: 910,
+    queTitle:
+      "Naliczono amortyzację wartości niematerialnych i prawnych za bieżący okres. Która dekretacja tego zdarzenia jest prawidłowa:",
+    queChoices: [
+      "Dt (Wn) '400 Amortyzacja' / Ct (Ma) '020 Wartości niematerialne i prawne'",
+      "Dt (Wn) '400 Amortyzacja' / Ct (Ma) '075 Umorzenie wartości niematerialnych i prawnych'",
+      " Dt (Wn) '075 Umorzenie wartości niematerialnych i prawnych' / Ct (Ma) '400 Amortyzacja'",
+    ],
+    correctAnswer:
+      "Dt (Wn) '400 Amortyzacja' / Ct (Ma) '075 Umorzenie wartości niematerialnych i prawnych'",
+  },
+];
+export const chapter10: Question = [
+  {
+    queID: 101,
+    queTitle: "W kosztach układu kalkulacyjnego wyróżnia się:",
+    queChoices: [
+      "podatki i opłaty",
+      "koszty sprzedaży",
+      "ubezpieczenia społeczne i inne świadczenia",
+    ],
+    correctAnswer: "koszty sprzedaży",
+  },
+  {
+    queID: 102,
+    queTitle:
+      "W wariancie porównawczym rachunku zysków i strat naliczony za bieżący okres sprawozdawczy podatek od nieruchomości (zaliczonych do środków trwałych) ujawnia się w grupie B w pozycji:",
+    queChoices: ["VI. Pozostałe koszty", "III. Usługi obce", "I. Amortyzacja"],
+    correctAnswer: "VI. Pozostałe koszty",
+  },
+  {
+    queID: 103,
+    queTitle: "Przychody ze sprzedaży produktów obejmują m.in.:",
+    queChoices: [
+      "przychody ze sprzedaży wyrobów gotowych i usług",
+      "przychody ze sprzedaży wyrobów gotowych i środków trwałych",
+      "przychody za sprzedaży wyrobów gotowych i towarów",
+    ],
+    correctAnswer: "przychody ze sprzedaży wyrobów gotowych i usług",
+  },
+  {
+    queID: 104,
+    queTitle:
+      "Przychody ze sprzedaży towarów ujawniane są w rachunku zysków i strat jako:",
+    queChoices: [
+      "przychody podstawowej działalności operacyjnej",
+      "pozostałe przychody operacyjne",
+      "przychody finansowe",
+    ],
+    correctAnswer: "przychody podstawowej działalności operacyjnej",
+  },
+  {
+    queID: 105,
+    queTitle:
+      "Jednostka prowadząca ewidencję kosztów podstawowej działalności operacyjnej w układzie pełnym (rodzajowo-kalkulacyjnym), sporządzająca sprawozdanie finansowe zgodnie z załącznikiem nr 5 do ustawy o rachunkowości:",
+    queChoices: [
+      "nie może sporządzić rachunku zysków i strat w wariancie porównawczym",
+      "nie może sporządzić rachunku zysków i strat w wariancie kalkulacyjnym",
+      "może sporządzić rachunek zysków i strat w wariancie porównawczym lub w wariancie kalkulacyjnym",
+    ],
+    correctAnswer:
+      "może sporządzić rachunek zysków i strat w wariancie porównawczym lub w wariancie kalkulacyjnym",
+  },
+  {
+    queID: 106,
+    queTitle: "Do kosztów ogólnego zarządu zalicza się m.in.:",
+    queChoices: [
+      "koszty wynagrodzeń pracowników administracyjnych, koszty transportu sprzedanych wyrobów gotowych, koszty najmu pomieszczeń biurowych",
+      "koszty prowadzenia bieżącego rachunku bankowego, koszty ubezpieczeń społecznych i innych świadczeń na rzecz pracowników administracyjnych, koszty zużycia materiałów biurowych",
+      "koszty zużycia energii w pomieszczeniach biurowych, koszty zużycia narzędzi produkcyjnych, koszty zużycia materiałów biurowych",
+    ],
+    correctAnswer:
+      "koszty prowadzenia bieżącego rachunku bankowego, koszty ubezpieczeń społecznych i innych świadczeń na rzecz pracowników administracyjnych, koszty zużycia materiałów biurowych",
+  },
+  {
+    queID: 107,
+    queTitle: "Kosztem podstawowej działalności operacyjnej jest:",
+    queChoices: [
+      "wartość netto sprzedanych środków trwałych",
+      "wartość spłaty kredytu zaciągniętego na finansowanie działalności operacyjnej",
+      "koszt wytworzenia sprzedanych wyrobów gotowych",
+    ],
+    correctAnswer: "koszt wytworzenia sprzedanych wyrobów gotowych",
+  },
+  {
+    queID: 108,
+    queTitle:
+      "Przyjęcie wyrobów gotowych z procesu produkcyjnego do magazynu księguje się następująco:",
+    queChoices: [
+      "Dt (Wn) '500-1 Koszty produkcji wyrobów' / Ct (Ma) '600-1 Wyroby (produkty) gotowe'",
+      "Dt (Wn) '600-1 Wyroby (produkty) gotowe' / Ct (Ma) '500-1 Koszty produkcji wyrobów'",
+      "Dt (Wn) '600-1 Wyroby (produkty) gotowe' / Ct (Ma) '490 Rozliczenie kosztów rodzajowych'",
+    ],
+    correctAnswer:
+      "Dt (Wn) '600-1 Wyroby (produkty) gotowe' / Ct (Ma) '500-1 Koszty produkcji wyrobów'",
+  },
+];
+export const chapter11: Question = [
+  {
+    queID: 111,
+    queTitle:
+      "Głównym celem sporządzenia sprawozdań finansowych zgodnie z ustawą o rachunkowości jest:",
+    queChoices: [
+      "dostarczenie informacji o sytuacji finansowej, wynikach działalności oraz zmianach sytuacji finansowej jednostki, które będą użyteczne dla szerokiego kręgu użytkowników przy podejmowaniu decyzji gospodarczych",
+      "dostarczenie informacji umożliwiających prawidłowe rozliczenie podatków i innych obciążeń publicznoprawnych oraz o kwotach wpłaconych do budżetu państwa z tych tytułów",
+      "dostarczenie informacji umożliwiających prawidłowe naliczenie wynagrodzeń przysługujących pracownikom, ich obciążeń oraz przyszłych świadczeń emerytalnych i rentowych",
+    ],
+    correctAnswer:
+      "dostarczenie informacji o sytuacji finansowej, wynikach działalności oraz zmianach sytuacji finansowej jednostki, które będą użyteczne dla szerokiego kręgu użytkowników przy podejmowaniu decyzji gospodarczych",
+  },
+  {
+    queID: 112,
+    queTitle:
+      "Roczne sprawozdanie finansowe sporządzanie zgodnie z załącznikiem nr 5 do ustawy o rachunkowości składa się z:",
+    queChoices: [
+      "bilansu oraz rachunku zysków i strat",
+      "bilansu, rachunku zysków i strat oraz informacji dodatkowej, obejmującej wprowadzenie do sprawozdania finansowego oraz dodatkowe informacje i objaśniania",
+      "bilansu, rachunku zyksów i strat oraz informacji dodatkowej, obejmującej dodatkowe informacje i objaśnienia",
+    ],
+    correctAnswer:
+      "bilansu, rachunku zysków i strat oraz informacji dodatkowej, obejmującej wprowadzenie do sprawozdania finansowego oraz dodatkowe informacje i objaśniania",
+  },
+  {
+    queID: 113,
+    queTitle:
+      "Pozycją sprawozdawczą ujawnianą zarówno w bilansie, jak i w rachunku zysków i strat jest:",
+    queChoices: [
+      "podatek dochodowy",
+      "kapitał (fundusz) podstawowy",
+      "zysk (strata) netto",
+    ],
+    correctAnswer: "zysk (strata) netto",
+  },
+  {
+    queID: 114,
+    queTitle:
+      "Jednostka prowadząca ewidencję kosztów działalności podstawowej operacyjnej w układzie pełnym (rodzajowo-kalkulacyjnym) i sporządzająca sprawozdanie finansowe zgodnie z załącznikiem nr 5 do ustawy o rachunkowości:",
+    queChoices: [
+      "może sporządzić rachunek zysków i strat w wariancie porównawczym lub w wariancie kalkulacyjnym",
+      "nie może sporządzić rachunk zysków i strat w wariancie porównawczym",
+      "sporządza rachunek zysków i strat równocześnie w wariancie porównawczym i wariancie kalkulacyjnym",
+    ],
+    correctAnswer:
+      "może sporządzić rachunek zysków i strat w wariancie porównawczym lub w wariancie kalkulacyjnym",
+  },
+  {
+    queID: 115,
+    queTitle:
+      "W rachunku zysków i strat sporządzanym zgodnie z załącznikiem nr 5 do ustawy o rachunkowości 'Koszty sprzedaży' są wykazywanie w wariancie:",
+    queChoices: [
+      "porównawczym",
+      "kalkulacyjnym",
+      "porównawczym i kalkulacyjnym",
+    ],
+    correctAnswer: "kalkulacyjnym",
+  },
+  {
+    queID: 116,
+    queTitle:
+      "W bieżącym roku jednostka sprzedała papiery wartościowe (zaliczone do inwastycji) za kwotę 1.000, które nabyła w roku poprzednim za kwotę 700. W rachunku zysków i strat sporządzonym za bieżący okres zgodnie z załącznikiem nr 5 do ustawy o rachunkowości jednostka ta wykaże:",
+    queChoices: [
+      "przychody finansowe w kwocie 1.000 oraz koszty finansowe w kwocie 700",
+      "przychody finansowe w kwocie 300 oraz koszty finansowe w kwocie 0",
+      "przychody finansowe w kwocie 0 oraz koszty finansowe w kwocie 0",
+    ],
+    correctAnswer:
+      "przychody finansowe w kwocie 300 oraz koszty finansowe w kwocie 0",
+  },
+  {
+    queID: 117,
+    queTitle:
+      "W spółce z ograniczoną odpowiedzialnością po zatwierdzeniu rocznego sprawozdania finansowego zysk osiągnięty w poprzednim roku należy z konta '860 Wynik finansowy' przeksięgować na konto:",
+    queChoices: [
+      "'800 Kapitał (fundusz) podstawowy'",
+      "'130-1 Rachunek bieżący'",
+      "'820 Rozliczenie wyniku finansowego'",
+    ],
+    correctAnswer: "'820 Rozliczenie wyniku finansowego'",
+  },
+  {
+    queID: 118,
+    queTitle:
+      "W rachunku zysków i strat sporządzanym zgodnie z załącznikiem nr 5 do ustawy rachunkowości w wariancie porównawczym ujawnia się:",
+    queChoices: [
+      "koszty według rodzajów",
+      "koszty ogólnego zarządu",
+      "koszty sprzedanych produktów i towarów",
+    ],
+    correctAnswer: "koszty według rodzajów",
+  },
+  {
+    queID: 119,
+    queTitle:
+      "Kwoty ujęte na koncie '870 Podatek dochodowy i inne obowiązkowe obciążenia wyniku finansowego' prezentuje się w:",
+    queChoices: [
+      "bilansie",
+      "rachunku zysków i strat",
+      "koszty sprzedanych towarów",
+    ],
+    correctAnswer: "rachunku zysków i strat",
+  },
+  {
+    queID: 1110,
+    queTitle:
+      "Kwota naliczonych, lecz nieotrzymanych odsetek od należności od odbiorców w momencie ich naliczenia:",
+    queChoices: [
+      "jest kosztem księgowym, lecz nie jest kosztem uzyskania przychodów (kosztem podatkowym)",
+      "jest przychodem księgowym i przychodem do opodatkowania (podatkowym)",
+      "jest przychodem księgowym, lecz nie jest przychodem do opodatkowania (podatkowym)",
+    ],
+    correctAnswer:
+      "jest przychodem księgowym, lecz nie jest przychodem do opodatkowania (podatkowym)",
+  },
+  {
+    queID: 1111,
+    queTitle:
+      "Kwota naliczonych i zapłaconych odsetek za zwłokę w zapłacie zobowiązania wobec ZUS:",
+    queChoices: [
+      "jest kosztem księgowym, lecz nie jest kosztem uzyskania przychodów (kosztem podatkowym)",
+      "jest kosztem księgowym i kosztem uzyskania przychodów (kosztem podatkowym)",
+      "nie jest kosztem księgowym, lecz jest kosztem uzyskania przychodów (kosztem podatkowym)",
+    ],
+    correctAnswer:
+      "jest kosztem księgowym, lecz nie jest kosztem uzyskania przychodów (kosztem podatkowym)",
+  },
+];

@@ -1,5 +1,7 @@
 import { NavBar } from "~/components/ui/NavBar";
 import type { Route } from "./+types/home";
+import { useEffect } from "react";
+import { redirect } from "react-router";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -9,6 +11,9 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Home() {
+  useEffect(() => {
+    throw redirect("/quiz/random");
+  }, []);
   return (
     <>
       <NavBar />
